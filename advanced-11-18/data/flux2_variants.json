@@ -1,0 +1,47 @@
+{
+  "model": "FLUX.2 [klein] 4B FP8, Qwen 4B FP4",
+  "items": [
+    {
+      "level": 11,
+      "name": "three_interwoven_ribbons",
+      "prompt": "A high-quality realistic detailed illustration, coherent perspective. Exactly three LONG flexible cloth bands colored red, blue, and yellow. All THREE bands are TOGETHER interwoven in ONE shared three-strand braid from left to right, with multiple alternating over-and-under crossings. Every red segment connects to the same red ribbon, blue to blue, yellow to yellow. SIX loose ends visible (3 at left, 3 at right). No separate braids. Flat-lay product photo, uniform pale surface, sharp weave detail. Obey all object counts and spatial positions accurately. No letters or captions.",
+      "seed": 18186129,
+      "steps": 4,
+      "cfg": 1.0,
+      "width": 640,
+      "height": 512,
+      "status": "ok",
+      "filename": "lv11_flux2_variant.png",
+      "prompt_id": "2b161c25-4d22-4257-bbe3-bc58049d4ee5",
+      "seconds": 15.03
+    },
+    {
+      "level": 12,
+      "name": "three_people_carrying_table",
+      "prompt": "A high-quality realistic detailed illustration, coherent perspective. EXACTLY THREE movers, not four: two adults wearing blue shirts at lower-left end and one adult wearing red shirt at upper-right end. All three are jointly LIFTING ONE heavy rectangular WOODEN TABLE up a staircase, touching its edges with both hands. There are only three people in the entire scene, full-body view, four table legs all visible and off ground. The workers are not sitting and the table is not resting on its legs. Cinematic photojournalism. Obey all object counts and spatial positions accurately. No letters or captions.",
+      "seed": 18186502,
+      "steps": 4,
+      "cfg": 1.0,
+      "width": 640,
+      "height": 512,
+      "status": "ok",
+      "filename": "lv12_flux2_variant.png",
+      "prompt_id": "6ff952da-a8e0-4aba-a609-8d573b2f6205",
+      "seconds": 15.01
+    },
+    {
+      "level": 18,
+      "name": "penrose_impossible_stairs",
+      "prompt": "A high-quality realistic detailed illustration, coherent perspective. A physically impossible Penrose staircase loop, Escher ascending descending staircase, consisting of EXACTLY FOUR stair flights making a complete connected rectangular ring around a square hole. All stairs apparently go UP in clockwise order, yet the fourth flight meets the first at the same level. Very specific impossible perspective optical illusion, a closed ascending spiral with no end. Isometric 3/4 view of ancient stone stairs, all four corners connected, image clearly shows full stair loop. Obey all object counts and spatial positions accurately. No letters or captions.",
+      "seed": 18188740,
+      "steps": 4,
+      "cfg": 1.0,
+      "width": 640,
+      "height": 512,
+      "status": "ok",
+      "filename": "lv18_flux2_variant.png",
+      "prompt_id": "7b1308c0-d3cf-414b-bc51-f620e2aa92dd",
+      "seconds": 15.01
+    }
+  ]
+}

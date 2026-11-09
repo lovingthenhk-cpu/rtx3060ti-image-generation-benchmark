@@ -1,0 +1,77 @@
+{
+  "method": "human visual inspection + generated structural metadata, strict whole-scene compliance unverified",
+  "cases": [
+    {
+      "level": 11,
+      "selected": "lv11_constructed.png",
+      "status": "structure_pass",
+      "limitations_en": "The three curve paths and 6 endpoints are mathematically defined; real weave/lighting remains stylized.",
+      "notes_ja": "3色の経路を保持した組紐。幾何学的連続性と6端点を優先",
+      "notes_en": "Geometry-preserved three-strand weave, six ends",
+      "sha256": "dd5fd27935756600862638e5ddef623d6bf331766d449380024977aaf7095b0a"
+    },
+    {
+      "level": 12,
+      "selected": "lv12_constructed.png",
+      "status": "structure_pass",
+      "limitations_en": "Three human silhouettes, six contacts and four table legs; not a documentary photo or fully anatomically realistic.",
+      "notes_ja": "3人・6接触・4脚を明示した搬送構図。写真らしさは未達",
+      "notes_en": "Three adults/six hand contacts/four legs fixed; stylized",
+      "sha256": "83dd5c9ebfb7e03fde4615ca7e2486acde7e2e5fb2c6934c6a7437b1465a10df"
+    },
+    {
+      "level": 13,
+      "selected": "lv13_constructed.png",
+      "status": "structure_partial",
+      "limitations_en": "Visual causal linkage shown; rigid dynamics and contact timing are not simulated.",
+      "notes_ja": "漏斗→坂→鉄球→シーソー→ベルの機構配置",
+      "notes_en": "Explicit funnel/ramp/ball/lever/bell chain",
+      "sha256": "083591117850fbce59479d472cd4b3b0601e45d8f0b5e6c43142f2fcd120fdde"
+    },
+    {
+      "level": 14,
+      "selected": "lv14_constructed.png",
+      "status": "structure_pass",
+      "limitations_en": "Twelve radial arms equally spaced and exactly one dark lamp; material realism is illustrative.",
+      "notes_ja": "12腕・30度・11灯点灯・1灯消灯",
+      "notes_en": "Exactly 12 radial arms with 11 lit and one off",
+      "sha256": "6aab6eec414e9e779fe1f08b9d4ee1f83c1a41abbef938ea6305c6e4565c2c16"
+    },
+    {
+      "level": 15,
+      "selected": "lv15_constructed.png",
+      "status": "partial",
+      "limitations_en": "Three refractive balls and stripes; caustics are approximate, not a physically validated illumination simulation.",
+      "notes_ja": "3球のガラス屈折をスネルの法則で計算。集光模様は簡略",
+      "notes_en": "Three glass spheres with analytic refraction; caustics simplified",
+      "sha256": "3f19666a85939ab453010deada0599a14f9b0fb95fcaffceefd7c38875e5fcab"
+    },
+    {
+      "level": 16,
+      "selected": "lv16_constructed.png",
+      "status": "structure_pass",
+      "limitations_en": "Five vertices, five bridges, degree two, no crossings; not fully photoreal.",
+      "notes_ja": "5島・5橋・次数2の閉路を保証",
+      "notes_en": "Five islands and five bridges, cycle degree two",
+      "sha256": "c49730ee4302f090208b5d75d213455459e284bb2dbd10fb8aecbbbfdd45c094"
+    },
+    {
+      "level": 17,
+      "selected": "lv17_constructed.png",
+      "status": "partial",
+      "limitations_en": "Coaxial components in correct listed order, but no verified mechanical compatibility of all watch parts.",
+      "notes_ja": "部品順序と軸一致を強制した分解模式図",
+      "notes_en": "Aligned exploded watch stages; assembly unverified",
+      "sha256": "1d469d1d8ac408acafd0f6b6604d66bb50faa933b0207a62680237ae45af1ded"
+    },
+    {
+      "level": 18,
+      "selected": "lv18_flux2_variant.png",
+      "status": "partial",
+      "limitations_en": "Four connected stair flights are visible; the paradoxical clockwise uphill reading is subjective/unverified.",
+      "notes_ja": "4辺の階段を閉路にした写真風候補。全辺の上り錯視は未検証",
+      "notes_en": "Photoreal four-flight closed-loop candidate; uphill illusion not proven",
+      "sha256": "6212ed798fd6a7c8b1136c31317252bf27ce935a517065556fff2677ea613d2c"
+    }
+  ]
+}

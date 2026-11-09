@@ -1,0 +1,109 @@
+{
+  "model": "Counterfeit V2.5 fp16 SD1.5",
+  "items": [
+    {
+      "level": 11,
+      "status": "ok",
+      "seconds": 5.99,
+      "peak_cuda_reserved_GiB": 3.69,
+      "seed": 20262617,
+      "steps": 27,
+      "cfg": 7.0,
+      "width": 768,
+      "height": 512,
+      "file": "lv11_counterfeit.png",
+      "error": null
+    },
+    {
+      "level": 12,
+      "status": "ok",
+      "seconds": 3.7,
+      "peak_cuda_reserved_GiB": 3.69,
+      "seed": 20262754,
+      "steps": 27,
+      "cfg": 7.0,
+      "width": 768,
+      "height": 512,
+      "file": "lv12_counterfeit.png",
+      "error": null
+    },
+    {
+      "level": 13,
+      "status": "ok",
+      "seconds": 3.7,
+      "peak_cuda_reserved_GiB": 3.69,
+      "seed": 20262891,
+      "steps": 27,
+      "cfg": 7.0,
+      "width": 768,
+      "height": 512,
+      "file": "lv13_counterfeit.png",
+      "error": null
+    },
+    {
+      "level": 14,
+      "status": "ok",
+      "seconds": 5.84,
+      "peak_cuda_reserved_GiB": 4.68,
+      "seed": 20263028,
+      "steps": 27,
+      "cfg": 7.0,
+      "width": 768,
+      "height": 768,
+      "file": "lv14_counterfeit.png",
+      "error": null
+    },
+    {
+      "level": 15,
+      "status": "ok",
+      "seconds": 3.73,
+      "peak_cuda_reserved_GiB": 4.68,
+      "seed": 20263165,
+      "steps": 27,
+      "cfg": 7.0,
+      "width": 768,
+      "height": 512,
+      "file": "lv15_counterfeit.png",
+      "error": null
+    },
+    {
+      "level": 16,
+      "status": "ok",
+      "seconds": 4.67,
+      "peak_cuda_reserved_GiB": 4.68,
+      "seed": 20263302,
+      "steps": 27,
+      "cfg": 7.0,
+      "width": 768,
+      "height": 640,
+      "file": "lv16_counterfeit.png",
+      "error": null
+    },
+    {
+      "level": 17,
+      "status": "ok",
+      "seconds": 4.66,
+      "peak_cuda_reserved_GiB": 4.68,
+      "seed": 20263439,
+      "steps": 27,
+      "cfg": 7.0,
+      "width": 768,
+      "height": 640,
+      "file": "lv17_counterfeit.png",
+      "error": null
+    },
+    {
+      "level": 18,
+      "status": "ok",
+      "seconds": 4.7,
+      "peak_cuda_reserved_GiB": 4.68,
+      "seed": 20263576,
+      "steps": 27,
+      "cfg": 7.0,
+      "width": 768,
+      "height": 640,
+      "file": "lv18_counterfeit.png",
+      "error": null
+    }
+  ]
+}

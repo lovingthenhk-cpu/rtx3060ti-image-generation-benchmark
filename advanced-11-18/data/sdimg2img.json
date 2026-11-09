@@ -1,0 +1,96 @@
+{
+  "model": "Counterfeit V2.5 Img2Img",
+  "items": [
+    {
+      "level": 12,
+      "strength": 0.35,
+      "steps": 30,
+      "prompt": "three adult furniture movers in work clothing lifting a large rectangular wooden dining table up the stairs, two below and one above, each both hands on furniture, four table legs, clean detailed semi-realistic painterly comic illustration",
+      "filename": "lv12_sdimg_35.png",
+      "width": 640,
+      "height": 512,
+      "seed": 987157,
+      "status": "ok",
+      "peak_reserved_GiB": 3.01,
+      "seconds": 3.76
+    },
+    {
+      "level": 12,
+      "strength": 0.53,
+      "steps": 30,
+      "prompt": "three adult furniture movers in work clothing lifting a heavy rectangular wood table together on ascending stairs, three people only, two lower and one upper, hands in contact, high quality realistic graphic novel art",
+      "filename": "lv12_sdimg_53.png",
+      "width": 640,
+      "height": 512,
+      "seed": 987175,
+      "status": "ok",
+      "peak_reserved_GiB": 3.01,
+      "seconds": 1.86
+    },
+    {
+      "level": 13,
+      "strength": 0.33,
+      "steps": 30,
+      "prompt": "precisely one polished steel marble descending a continuous sloped track from funnel into the left tip of a seesaw lever, the raised right tip of lever hitting a shiny brass bell, coherent mechanical cause-and-effect, highly detailed engineering manual with warm material textures",
+      "filename": "lv13_sdimg_33.png",
+      "width": 640,
+      "height": 512,
+      "seed": 987156,
+      "status": "ok",
+      "peak_reserved_GiB": 3.01,
+      "seconds": 1.23
+    },
+    {
+      "level": 14,
+      "strength": 0.33,
+      "steps": 30,
+      "prompt": "exactly twelve chandelier arms arranged symmetrically in radial clock positions, eleven glowing white lightbulbs and one dark unlit bulb at 2 oclock, elegant gold metallic chandelier, decorative ornate glass and bronze, detailed photographic texture",
+      "filename": "lv14_sdimg_33.png",
+      "width": 640,
+      "height": 640,
+      "seed": 987157,
+      "status": "ok",
+      "peak_reserved_GiB": 3.79,
+      "seconds": 1.58
+    },
+    {
+      "level": 16,
+      "strength": 0.32,
+      "steps": 30,
+      "prompt": "exactly five lush floating islands arranged in a pentagonal ring with precisely five wooden rope bridges making one complete loop, each island linked to two neighbors, no crossing or diagonal bridges, fantasy game environment painted aerial view",
+      "filename": "lv16_sdimg_32.png",
+      "width": 640,
+      "height": 512,
+      "seed": 987158,
+      "status": "ok",
+      "peak_reserved_GiB": 3.79,
+      "seconds": 1.23
+    },
+    {
+      "level": 17,
+      "strength": 0.31,
+      "steps": 30,
+      "prompt": "realistic exploded axonometric drawing of antique pocket watch parts, all components aligned along a single assembly axis, glass, bezel, dial, hands, clockwork gears, mainspring barrel and caseback, realistic brushed metal, engineering technical illustration",
+      "filename": "lv17_sdimg_31.png",
+      "width": 640,
+      "height": 512,
+      "seed": 987158,
+      "status": "ok",
+      "peak_reserved_GiB": 3.79,
+      "seconds": 1.23
+    },
+    {
+      "level": 18,
+      "strength": 0.32,
+      "steps": 30,
+      "prompt": "classic penrose impossible ascending staircase in four connected flights of gray stone surrounding a square void, all four rise clockwise yet the loop reconnects, Escher impossible object, architectural illustration, stone material and shadows",
+      "filename": "lv18_sdimg_32.png",
+      "width": 640,
+      "height": 512,
+      "seed": 987160,
+      "status": "ok",
+      "peak_reserved_GiB": 3.79,
+      "seconds": 1.24
+    }
+  ]
+}

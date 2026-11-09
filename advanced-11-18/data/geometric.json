@@ -1,0 +1,219 @@
+{
+  "11": {
+    "file": "lv11_constructed.png",
+    "checks": {
+      "ribbons": 3,
+      "endpoints": 6,
+      "crossings": 16,
+      "overpass_table": [
+        [
+          108.7,
+          0
+        ],
+        [
+          166.7,
+          1
+        ],
+        [
+          224.7,
+          0
+        ],
+        [
+          282.7,
+          1
+        ],
+        [
+          340.7,
+          2
+        ],
+        [
+          398.7,
+          2
+        ],
+        [
+          456.7,
+          0
+        ],
+        [
+          514.7,
+          1
+        ],
+        [
+          572.7,
+          0
+        ],
+        [
+          630.7,
+          1
+        ],
+        [
+          689.2,
+          2
+        ],
+        [
+          747.2,
+          2
+        ],
+        [
+          805.2,
+          0
+        ],
+        [
+          863.2,
+          1
+        ],
+        [
+          921.2,
+          0
+        ],
+        [
+          979.2,
+          1
+        ]
+      ]
+    },
+    "size": [
+      1100,
+      720
+    ],
+    "method": "deterministic geometry + procedural shading, no diffusion in this pass"
+  },
+  "13": {
+    "file": "lv13_constructed.png",
+    "checks": {
+      "funnel": true,
+      "continuous_ramp": true,
+      "one_marble": true,
+      "seesaw_pivot": [
+        826,
+        598
+      ],
+      "bell": true,
+      "left_below_right": true
+    },
+    "size": [
+      1200,
+      810
+    ],
+    "method": "deterministic geometry + procedural shading, no diffusion in this pass"
+  },
+  "14": {
+    "file": "lv14_constructed.png",
+    "checks": {
+      "lamps": 12,
+      "lit_lamps": 11,
+      "unlit_index_clockwise_from_top": 2,
+      "angle_degrees": 30,
+      "centers": [
+        [
+          600.0,
+          177.0,
+          true
+        ],
+        [
+          811.5,
+          233.67,
+          true
+        ],
+        [
+          966.33,
+          388.5,
+          false
+        ],
+        [
+          1023.0,
+          600.0,
+          true
+        ],
+        [
+          966.33,
+          811.5,
+          true
+        ],
+        [
+          811.5,
+          966.33,
+          true
+        ],
+        [
+          600.0,
+          1023.0,
+          true
+        ],
+        [
+          388.5,
+          966.33,
+          true
+        ],
+        [
+          233.67,
+          811.5,
+          true
+        ],
+        [
+          177.0,
+          600.0,
+          true
+        ],
+        [
+          233.67,
+          388.5,
+          true
+        ],
+        [
+          388.5,
+          233.67,
+          true
+        ]
+      ]
+    },
+    "size": [
+      1200,
+      1200
+    ],
+    "method": "deterministic geometry + procedural shading, no diffusion in this pass"
+  },
+  "16": {
+    "file": "lv16_constructed.png",
+    "checks": {
+      "islands": 5,
+      "bridges": 5,
+      "degrees": [
+        2,
+        2,
+        2,
+        2,
+        2
+      ],
+      "edge_list_one_based": [
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          5,
+          1
+        ]
+      ],
+      "cycle": true,
+      "no_crossings": true
+    },
+    "size": [
+      1300,
+      980
+    ],
+    "method": "deterministic geometry + procedural shading, no diffusion in this pass"
+  }
+}

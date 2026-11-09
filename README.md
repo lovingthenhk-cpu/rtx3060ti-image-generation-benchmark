@@ -14,3 +14,8 @@ Ten difficulty levels, direct text-to-image (Counterfeit V2.5 / FLUX.2 Klein) ve
 [Animagine XL contact sheet](images/animagine_contact_sheet.jpg) · [U2NetP object extraction](images/lv02_rembg_composite.png) · [Reference-based harbor fix](images/lv10_reference_composite.png)
 
 See the bilingual reports for visual inspection notes, memory failures, retries, and method verdicts.
+
+
+## Advanced image benchmark
+
+[Advanced Lv.11–18 / 上級課題](advanced-11-18/README.md) — [日本語](advanced-11-18/REPORT.ja.md) | [English](advanced-11-18/REPORT.en.md)

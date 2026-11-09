@@ -1,0 +1,40 @@
+{
+  "15": {
+    "file": "lv15_constructed.png",
+    "checks": {
+      "spheres": 3,
+      "refraction": "analytic Snell n_air=1,n_glass=1.5 on orthographic rays",
+      "shadows": "stylized, not calibrated physical caustics",
+      "stripe_frequency_pixels": 42
+    }
+  },
+  "17": {
+    "file": "lv17_constructed.png",
+    "checks": {
+      "primary_stages": 9,
+      "center_alignment": true,
+      "stage_order": [
+        "bezel",
+        "glass",
+        "dial",
+        "hands",
+        "gears",
+        "pinions",
+        "spring",
+        "movement plate",
+        "case back"
+      ],
+      "exact_mechanical_assembly_verified": false
+    }
+  },
+  "18": {
+    "file": "lv18_constructed.png",
+    "checks": {
+      "four_flights": 4,
+      "connected_cycle": true,
+      "local_uphill_directions": "clockwise all 4",
+      "global_geometry": "intentionally impossible",
+      "photorealism": "schematic, not photorealistic"
+    }
+  }
+}

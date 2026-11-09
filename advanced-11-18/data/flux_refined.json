@@ -1,0 +1,30 @@
+{
+  "items": [
+    {
+      "level": 14,
+      "status": "ok",
+      "prompt": "Symmetrical top down photograph of a highly detailed twelve-arm bronze and crystal chandelier. EXACTLY 12 arms at equal 30 degree intervals. Eleven lamps glowing, exactly one dark unlit lamp in the 2 oclock position. Keep identical positions and count.",
+      "denoise": 0.32,
+      "steps": 8,
+      "width": 640,
+      "height": 640,
+      "seed": 202611114,
+      "source": "lv14_constructed.png",
+      "filename": "lv14_flux_refined.png",
+      "seconds": 27.03
+    },
+    {
+      "level": 16,
+      "status": "ok",
+      "prompt": "Five floating rocky islands, each connected to exactly two neighbors by five wooden bridges in one pentagonal loop. No diagonal bridges. Maintain original five-island layout and connections. Gorgeous fantasy game environment, lush trees, detailed rocks, bright daylight.",
+      "denoise": 0.3,
+      "steps": 8,
+      "width": 640,
+      "height": 512,
+      "seed": 202611116,
+      "source": "lv16_constructed.png",
+      "filename": "lv16_flux_refined.png",
+      "seconds": 21.05
+    }
+  ]
+}

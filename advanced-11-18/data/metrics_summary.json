@@ -1,0 +1,14 @@
+{
+  "date_jst": "2026-11-10",
+  "gpu": "NVIDIA RTX3060Ti 8 GiB",
+  "counterfeit_png_saved": 8,
+  "counterfeit_total_inference_s": 36.99,
+  "counterfeit_peak_reserved_GiB": 4.68,
+  "flux_png_saved": 8,
+  "flux_total_task_wall_s": 210.28,
+  "flux_initial_task_s": 99.1,
+  "flux_reprompt_png_saved": 3,
+  "sd_img2img_png_saved": 7,
+  "flux_img2img_png_saved_but_unusable": 2,
+  "strict_all_requirements_passed": false
+}
