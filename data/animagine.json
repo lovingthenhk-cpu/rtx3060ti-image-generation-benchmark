@@ -1,0 +1,31 @@
+{
+  "model": "Animagine XL 3.1",
+  "items": [
+    {
+      "level": 7,
+      "status": "ok",
+      "filename": "lv07_animagine.png",
+      "prompt": "chessboard in front of an old mirror, exactly one white king, one black queen, and one white rook on a chessboard, all three pieces accurately reflected in mirror, perspective, masterful fantasy illustration",
+      "seconds": 7.76,
+      "peak_reserved_GiB": 7.47,
+      "seed": 20261186,
+      "steps": 25,
+      "cfg": 7,
+      "width": 768,
+      "height": 512
+    },
+    {
+      "level": 9,
+      "status": "ok",
+      "filename": "lv09_animagine.png",
+      "prompt": "four-panel reference sheet of the same female explorer in orange jacket, silver short hair, backpack, LEFT cheek scar; FRONT VIEW, LEFT SIDE VIEW, REAR VIEW, RUNNING POSE, same clothing all four panels, full bodies, anime art",
+      "seconds": 4.02,
+      "peak_reserved_GiB": 7.13,
+      "seed": 20261208,
+      "steps": 25,
+      "cfg": 7,
+      "width": 640,
+      "height": 384
+    }
+  ]
+}

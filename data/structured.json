@@ -1,0 +1,119 @@
+[
+  {
+    "key": "asset02_background",
+    "prompt": "empty bare dark wooden table, no objects, pale gray wall, warm sidelight, tabletop occupies lower two-thirds of composition",
+    "width": 640,
+    "height": 512,
+    "seed": 8011,
+    "steps": 24,
+    "seconds": 2.99
+  },
+  {
+    "key": "asset02_teapot",
+    "prompt": "ONE cobalt blue ceramic Japanese teapot with spout and handle, object fully visible, CENTERED ISOLATED on PURE WHITE background",
+    "width": 384,
+    "height": 384,
+    "seed": 8012,
+    "steps": 24,
+    "seconds": 1.5
+  },
+  {
+    "key": "asset02_pear_left",
+    "prompt": "ONE ripe yellow pear LYING horizontally sideways on a pure white background, isolated food product",
+    "width": 384,
+    "height": 384,
+    "seed": 8013,
+    "steps": 24,
+    "seconds": 1.42
+  },
+  {
+    "key": "asset02_pear_right",
+    "prompt": "ONE ripe yellow pear STANDING UPRIGHT vertically on a pure white background, isolated fruit",
+    "width": 384,
+    "height": 384,
+    "seed": 8014,
+    "steps": 24,
+    "seconds": 1.4
+  },
+  {
+    "key": "asset08_farm",
+    "prompt": "cross section interior of underground hydroponic vegetable farm floor, rows of green crops, growers, architectural cutaway, left side panorama",
+    "width": 640,
+    "height": 256,
+    "seed": 8200,
+    "steps": 24,
+    "seconds": 1.48
+  },
+  {
+    "key": "asset08_market",
+    "prompt": "cross section interior of underground marketplace, food stalls, merchants, colorful goods, architectural cutaway",
+    "width": 640,
+    "height": 256,
+    "seed": 8201,
+    "steps": 24,
+    "seconds": 1.48
+  },
+  {
+    "key": "asset08_homes",
+    "prompt": "cross section interior of underground residential apartments, windows and rooms and furniture, architectural cutaway",
+    "width": 640,
+    "height": 256,
+    "seed": 8202,
+    "steps": 24,
+    "seconds": 1.48
+  },
+  {
+    "key": "asset08_power",
+    "prompt": "cross section interior of underground electrical power plant, glowing transformers and turbines, architectural cutaway",
+    "width": 640,
+    "height": 256,
+    "seed": 8203,
+    "steps": 24,
+    "seconds": 1.48
+  },
+  {
+    "key": "asset09_front",
+    "prompt": "the same adult woman adventurer, short silver bob haircut, bright orange jacket, brown travel backpack, dark blue trousers, brown boots, small scar on her left cheek, front-facing full body character portrait, standing neutral front view, one person only, clean light studio background",
+    "width": 384,
+    "height": 512,
+    "seed": 9300,
+    "steps": 24,
+    "seconds": 1.71
+  },
+  {
+    "key": "asset09_side",
+    "prompt": "the same adult woman adventurer, short silver bob haircut, bright orange jacket, brown travel backpack, dark blue trousers, brown boots, small scar on her left cheek, full body profile viewed from LEFT side, side-facing character portrait, one person only, clean light studio background",
+    "width": 384,
+    "height": 512,
+    "seed": 9301,
+    "steps": 24,
+    "seconds": 1.71
+  },
+  {
+    "key": "asset09_back",
+    "prompt": "the same adult woman adventurer, short silver bob haircut, bright orange jacket, brown travel backpack, dark blue trousers, brown boots, small scar on her left cheek, full body portrait from BEHIND, back view showing backpack straps, one person only, clean light studio background",
+    "width": 384,
+    "height": 512,
+    "seed": 9302,
+    "steps": 24,
+    "seconds": 1.72
+  },
+  {
+    "key": "asset09_running",
+    "prompt": "the same adult woman adventurer, short silver bob haircut, bright orange jacket, brown travel backpack, dark blue trousers, brown boots, small scar on her left cheek, full body running motion pose towards the right, dynamic action, one person only, clean light studio background",
+    "width": 384,
+    "height": 512,
+    "seed": 9303,
+    "steps": 24,
+    "seconds": 1.68
+  },
+  {
+    "key": "asset10_day_harbor",
+    "prompt": "wide cinematic panorama of a small coastal harbor town with one lighthouse on the left, clustered stone houses, docks and boats, clear morning sunlight, eye level, picturesque storybook detailed architecture",
+    "width": 576,
+    "height": 288,
+    "seed": 10101,
+    "steps": 24,
+    "seconds": 1.57
+  }
+]
