@@ -26,6 +26,19 @@
       "cfg": 7,
       "width": 640,
       "height": 384
+    },
+    {
+      "level": 10,
+      "status": "ok",
+      "filename": "lv10_animagine.png",
+      "prompt": "fantasy transparent hourglass floating on ocean storm, upper bulb contains sunny morning harbor village with lighthouse and roofs, lower bulb contains the identical harbor village at night with matching building positions, gold sand flowing at center, ornate glass, anime fantasy art",
+      "seconds": 3.56,
+      "peak_reserved_GiB": 7.13,
+      "seed": 20261219,
+      "steps": 25,
+      "cfg": 7,
+      "width": 640,
+      "height": 384
     }
   ]
 }

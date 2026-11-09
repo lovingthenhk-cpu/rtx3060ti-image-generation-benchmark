@@ -1,0 +1,14 @@
+{
+  "lv10_reference": {
+    "status": "ok",
+    "seconds": 0.11,
+    "source": "lv10_flux2.png",
+    "method": "same top harbor crop, night color transform, feathered mask in lower bulb; original sand restored",
+    "limitation": "top and bottom chamber different projected scale; architectural pixel source shared but perspective and seam remain approximate"
+  },
+  "lv02_rembg": {
+    "status": "ok",
+    "seconds": 1.58,
+    "method": "u2netp automatic subject segmentation then spatial composition"
+  }
+}

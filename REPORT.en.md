@@ -57,3 +57,53 @@
 - Results are single-seed and must not be generalized to probabilities or a model leaderboard.
 - Next step: regional conditioning, ControlNet or segmentation masks plus multiple seeds.
 - See [scripts](scripts/) for executed code, [data](data/) for prompts, seeds, time and output statuses; model weights are not redistributed.
+
+
+## Qualitative FLUX.2 visual assessment
+
+The following near-complete / partial / fail labels are subjective inspections of one sample per prompt, not controlled scores.
+
+| Level | Qualitative status | Observations |
+|---|---|---|
+| 1 | partial | Exactly one apple, but two leaves rather than one. |
+| 2 | near-complete | Blue teapot between two pears; orientation is close to instructions. |
+| 3 | near-complete | Lightbulb, wood base, miniature greenhouse and bench are legible. |
+| 4 | partial | Bicycle, wet cobbles, reflection are convincing; exact front-wheel immersion unclear. |
+| 5 | partial | Tree, spiral railway and train recognizable, but exact three loops/five cars not clear. |
+| 6 | partial | Glass/mechanical whale with gears; prescribed fin orientations are unclear. |
+| 7 | fail | Mirror stays blank; more than exactly three chess pieces. |
+| 8 | partial | Farm, market, power level exist, but residential level replaced by market-like room. |
+| 9 | partial | Similar silver-haired orange-jacket explorer appears in only three views. |
+| 10 | partial | Day/night towns in hourglass, but house placements differ and glass geometry is imperfect. |
+
+## Animagine XL 3.1 extra tests
+
+[Three-image contact sheet](images/animagine_contact_sheet.jpg) / [Measurements](data/animagine.json) / [Original script](scripts/animagine.py) / [Low-resolution retry](scripts/animagine_retry.py)
+
+- Level 7 at 768×512 (25 steps) generated in 7.76 s, but mirror/chess constraints were not satisfied.
+- Levels 9 and 10 initially hit CUDA out-of-memory at 768×512 (failed to allocate a further 192 MiB). Measured max PyTorch reserved GPU memory for the successful Lv7: 7.47 GiB.
+- Retrying Lv9/Lv10 at 640×384 with expandable CUDA allocator segments succeeded in 4.02 and 3.56 s respectively.
+- Lv9 had four related-looking characters but no true running pose. Lv10 was an abstract circular image, not a coherent hourglass.
+- **Lower resolution was a practical solution for 8GB-VRAM OOM** in this case, not evidence of better semantic compliance or visual quality.
+
+## Component workflow verdicts
+
+| Method | Case | What worked | What failed |
+|---|---|---|---|
+| Low-resolution Counterfeit one-shot | 1–10 | Fast and memory-efficient | Complex constraints often ignored |
+| One-shot FLUX.2 Klein 4B | 1–10 | Natural multi-object integration, best near-compliance on Lv2/Lv3 | First-load overhead, ≈7.5GB live GPU occupancy; failures in mirrors, floor functions, panels, aligned structures |
+| Independent objects + naive whiteness mask + composition | 2 | Positions are deterministic | Rectangular cutouts, unrelated backgrounds and unwanted objects |
+| U2NetP (rembg) matte + composition | 2 | Reduced rectangular matte; CPU inference step 1.58 s including initial download | Background/extra-fruit artifacts remained; considerably worse than direct FLUX |
+| Generate four floors + draw one elevator | 8 | Exact floor order and number | Harsh seams, different perspective and lighting |
+| Generate four separate viewpoints + assemble | 9 | Exactly four panels | No guaranteed identity or viewpoint accuracy |
+| Same harbor pixels, transformed day-to-night and placed in hourglass | 10 | Source building locations shared | Glass silhouette/masks look unnatural |
+| Reproject FLUX upper harbor to lower bulb | 10 | Preserves FLUX exterior glass scene better | Night scene overly dark and perspective not fully aligned |
+| 1.25x resize + low-strength img2img | 2/8 | Layout remained mostly stable | strength=0.20 did not remove the major cutout seams |
+
+[U2NetP matte output](images/lv02_rembg_composite.png) / [Harbor reference re-composition](images/lv10_reference_composite.png) / [Postprocessing measurements](data/postprocess.json) / [Postprocessing source](scripts/postprocess.py)
+
+### Practical conclusions
+
+**The most promising workflow from these specific trials is to build a global layout directly with FLUX.2, then correct only regions that demand exact placement/counting with explicit masks and localized conditioning.** Low resolution helped save VRAM and allow iteration, but did not by itself solve compositional constraints.
+
+Naive independent generation of every subject followed by simple compositing was unsuccessful in these tests: unrelated lighting, scale and unwanted scene content damaged coherence. The next meaningful experiments should use localized FLUX editing, ControlNet/segmentation masks, and shared image-reference conditioning for character viewpoints.

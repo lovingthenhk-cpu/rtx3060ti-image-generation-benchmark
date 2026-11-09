@@ -1,0 +1,102 @@
+{
+  "method": "visual inspection of single-seed outputs; subjective not a numerical benchmark",
+  "flux2": [
+    {
+      "level": 1,
+      "model": "FLUX.2 [klein] 4B FP8",
+      "subjective_status": "partial",
+      "notes_ja": "リンゴは1個。ただし葉は指定の1枚ではなく2枚。",
+      "notes_en": "Exactly one apple, but two leaves rather than one.",
+      "image": "images/lv01_flux2.png"
+    },
+    {
+      "level": 2,
+      "model": "FLUX.2 [klein] 4B FP8",
+      "subjective_status": "near-complete",
+      "notes_ja": "青い急須の左右に2個の洋梨が配置され、左右の向きも指定に近い。",
+      "notes_en": "Blue teapot between two pears; orientation is close to instructions.",
+      "image": "images/lv02_flux2.png"
+    },
+    {
+      "level": 3,
+      "model": "FLUX.2 [klein] 4B FP8",
+      "subjective_status": "near-complete",
+      "notes_ja": "電球・木製台座・内部の温室とベンチが読み取れる。",
+      "notes_en": "Lightbulb, wood base, miniature greenhouse and bench are legible.",
+      "image": "images/lv03_flux2.png"
+    },
+    {
+      "level": 4,
+      "model": "FLUX.2 [klein] 4B FP8",
+      "subjective_status": "partial",
+      "notes_ja": "濡れた石畳・自転車・水たまりの反射は良好。前輪の部分水没は不明。",
+      "notes_en": "Bicycle, wet cobbles, reflection are convincing; exact front-wheel immersion unclear.",
+      "image": "images/lv04_flux2.png"
+    },
+    {
+      "level": 5,
+      "model": "FLUX.2 [klein] 4B FP8",
+      "subjective_status": "partial",
+      "notes_ja": "大木の螺旋線路と列車は明瞭だが3周と5両を確証できない。",
+      "notes_en": "Tree, spiral railway and train recognizable, but exact three loops/five cars not clear.",
+      "image": "images/lv05_flux2.png"
+    },
+    {
+      "level": 6,
+      "model": "FLUX.2 [klein] 4B FP8",
+      "subjective_status": "partial",
+      "notes_ja": "透明な機械鯨と歯車は明瞭。左右胸びれの角度は不確実。",
+      "notes_en": "Glass/mechanical whale with gears; prescribed fin orientations are unclear.",
+      "image": "images/lv06_flux2.png"
+    },
+    {
+      "level": 7,
+      "model": "FLUX.2 [klein] 4B FP8",
+      "subjective_status": "fail",
+      "notes_ja": "鏡面が空白で、チェスの駒が指定3個より多い。",
+      "notes_en": "Mirror stays blank; more than exactly three chess pieces.",
+      "image": "images/lv07_flux2.png"
+    },
+    {
+      "level": 8,
+      "model": "FLUX.2 [klein] 4B FP8",
+      "subjective_status": "partial",
+      "notes_ja": "農園・市場・発電施設は描かれるが、住宅階が欠落・重複した市場階になっている。",
+      "notes_en": "Farm, market, power level exist, but residential level replaced by market-like room.",
+      "image": "images/lv08_flux2.png"
+    },
+    {
+      "level": 9,
+      "model": "FLUX.2 [klein] 4B FP8",
+      "subjective_status": "partial",
+      "notes_ja": "銀髪・オレンジ上着の同一風人物が3視点だけ描かれ、指定の4姿勢ではない。",
+      "notes_en": "Similar silver-haired orange-jacket explorer appears in only three views.",
+      "image": "images/lv09_flux2.png"
+    },
+    {
+      "level": 10,
+      "model": "FLUX.2 [klein] 4B FP8",
+      "subjective_status": "partial",
+      "notes_ja": "上下に昼夜の港町はあるが、建物の位置は一致せず、砂時計の上下構造も幾何学的に正確ではない。",
+      "notes_en": "Day/night towns in hourglass, but house placements differ and glass geometry is imperfect.",
+      "image": "images/lv10_flux2.png"
+    }
+  ],
+  "animagine": [
+    {
+      "level": 7,
+      "result": "fail",
+      "note": "mirror empty, chess almost absent"
+    },
+    {
+      "level": 9,
+      "result": "partial",
+      "note": "four views, outfit and hair broadly consistent, running action absent"
+    },
+    {
+      "level": 10,
+      "result": "fail",
+      "note": "incoherent glowing abstract circular scene rather than recognizable hourglass"
+    }
+  ]
+}

@@ -9,3 +9,8 @@ Ten difficulty levels, direct text-to-image (Counterfeit V2.5 / FLUX.2 Klein) ve
 [Direct baseline](images/baseline_contact_sheet.jpg) · [FLUX.2](images/flux2_contact_sheet.jpg) · [Side-by-side](images/comparison_contact_sheet.jpg)
 
 **Image generated ≠ prompt followed / 生成成功 ≠ 指示遵守。**
+
+
+[Animagine XL contact sheet](images/animagine_contact_sheet.jpg) · [U2NetP object extraction](images/lv02_rembg_composite.png) · [Reference-based harbor fix](images/lv10_reference_composite.png)
+
+See the bilingual reports for visual inspection notes, memory failures, retries, and method verdicts.
